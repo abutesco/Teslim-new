@@ -23,9 +23,20 @@
     <section>
     <h2>Need Help building your Website</h2>
     <p>leave me a message and i'll see what i can do</p>
-    <button>
-            <a href="mailto:abutesco@gmail.com"><p>Submit</p></a>
-    </button>
+    <form name="contact" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Comment <input type="comment" name="comment" /></label>
+        </p>
+      </form>
+      <p>
+        <button type="submit">Send</button>
+      </p>
     </section>
 
     <footer class = "foot">
