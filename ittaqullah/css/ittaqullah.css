@@ -1,0 +1,41 @@
+/* Style the navigation bar */
+@font-face {
+    font-family: "myfont";
+    src: url("../fonts/bebas/Bebas-Regular.ttf");
+}
+.navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    background-size: 100%;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    font-family: myfont;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: black;
+    background-size: 100px;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: whitesmoke;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
