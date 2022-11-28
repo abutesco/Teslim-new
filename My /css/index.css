@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: black;
-    background-image: url("../images/063E2793-D727-42B4-BB30-6A0CD4F205A4_1_105_c.jpeg");
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), url("../images/063E2793-D727-42B4-BB30-6A0CD4F205A4_1_105_c.jpeg");
     background-size: 170%;
     background-repeat: no-repeat;
     background-position: center ;
